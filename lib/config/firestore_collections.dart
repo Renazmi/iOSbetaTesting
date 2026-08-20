@@ -1,0 +1,13 @@
+/// Shared Firestore collection names for Angular web + Flutter mobile.
+class FirestoreCollections {
+  static const events = 'events';
+  static const announcements = 'announcements';
+  static const messages = 'messages';
+  static const chatMembers = 'chatMembers';
+  static const chatTyping = 'chatTyping';
+  static const attendanceOfficers = 'attendanceOfficers';
+  static const attendanceAttendees = 'attendanceAttendees';
+}
+
+const eliteChatMembersDocId = 'elite';
+const eliteOrganizationId = 1;
