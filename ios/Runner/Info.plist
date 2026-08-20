@@ -47,5 +47,9 @@
 	<true/>
 	<key>NSCameraUsageDescription</key>
 	<string>TrackIT needs camera access to scan event QR codes for attendance.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>TrackIT uses your location to verify event geofence attendance.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>TrackIT needs photo access for profile pictures and attendance selfies.</string>
 </dict>
 </plist>

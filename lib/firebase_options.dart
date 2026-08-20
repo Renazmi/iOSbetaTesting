@@ -44,8 +44,8 @@ class DefaultFirebaseOptions {
   /// Replace `appId` after registering the iOS app in Firebase Console
   /// or by running `flutterfire configure`.
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAwYG70UkKIEEvoE8GE0lhwkOY9Eu2K0aE',
-    appId: '1:323396504255:ios:REPLACE_WITH_IOS_APP_ID',
+    apiKey: 'AIzaSyCX8IOzWtRJEy2o2US8PIU_FolRf44Mjgk',
+    appId: '1:323396504255:ios:ce93746759c5a61600140a',
     messagingSenderId: '323396504255',
     projectId: 'trackit-fac8a',
     storageBucket: 'trackit-fac8a.firebasestorage.app',
