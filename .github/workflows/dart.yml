@@ -21,14 +21,14 @@ jobs:
       - name: Flutter pub get
         run: flutter pub get
 
-      - name: Lock iOS deployment target to 15.5
+      - name: Lock iOS deployment target to 15.0
         run: |
-          /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion 15.5" ios/Flutter/AppFrameworkInfo.plist
+          /usr/libexec/PlistBuddy -c "Set :MinimumOSVersion 15.0" ios/Flutter/AppFrameworkInfo.plist
           if grep -q "^platform :ios" ios/Podfile; then
-            sed -i '' "s/^platform :ios.*/platform :ios, '15.5'/" ios/Podfile
+            sed -i '' "s/^platform :ios.*/platform :ios, '15.0'/" ios/Podfile
           else
             sed -i '' "1i\\
-          platform :ios, '15.5'\\
+          platform :ios, '15.0'\\
           " ios/Podfile
           fi
 
